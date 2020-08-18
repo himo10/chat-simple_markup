@@ -1,0 +1,10 @@
+/* core */
+@import 'core/settings';
+@import 'core/base';
+
+/* global components */
+@import 'components/header';
+
+/* pages */
+@import 'pages/chat';
+@import 'pages/auth';

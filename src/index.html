@@ -1,0 +1,31 @@
+@@include('templates/header.html')
+
+<div class="chat">
+  <div class="chat__top">
+    <div class="chat__info">
+      <div class="chat__name">Сейчас пользователей онлайн: 4</div>
+    </div>
+  </div>
+  <div class="chat__main">
+    <div class="chat__messages">
+      <div class="chat__message interlocutor">
+        <div class="chat__message-text interlocutor-text">
+          Мы тут недавно войска Ариовиста разбили, чуваки хотели закрепиться на галльских землях, лол
+        </div>
+       <div class="chat__message-date interlocutor-date">Вчера в 21:00</div>
+      </div>
+      <div class="chat__message me">
+        <div class="chat__message-text me-text">
+          Всё норм! Флот построили на Лауре. Галлов добили после вашего нападения. Спс
+        </div>
+        <div class="chat__message-date me">Вчера в 21:00</div>
+      </div>
+    </div>
+    <form class="chat__form">
+      <input type="text" placeholder="Введите свое сообщение..." class="chat__form-input" />
+      <button type="submit" class="chat__form-submit"><img src="assets/images/submit.svg" alt="submit"></button>
+    </form>
+  </div>
+</div>
+
+@@include('templates/footer.html')
